@@ -70,7 +70,7 @@ is read using assistive technology.
 You can customize aspects of both the list and individual list items using the
 options below.
 
-## `<mjml-list>` options
+## `<mj-list>` options
 
 | option                   | unit                                                                       | details                                                                      | default value                  |
 | ------------------------ | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------ |
@@ -91,7 +91,7 @@ options below.
 | `vertical-align`         | `top`, `middle`, `bottom`                                                  | Applies to entire list                                                       | `top`                          |
 | `width`                  | pixels                                                                     | Applies to entire list                                                       | none (full width of container) |
 
-## `<mjml-li>` options
+## `<mj-li>` options
 
 | option             | unit                                 | details                                 | default value                                                                                       |
 | ------------------ | ------------------------------------ | --------------------------------------- | --------------------------------------------------------------------------------------------------- |
