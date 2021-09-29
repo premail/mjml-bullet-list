@@ -1,4 +1,4 @@
-# mjml-list
+# MJML List: `<mj-list>` and `<mj-li>`
 
 `<ul>` and `<li>` HTML elements can be used in HTML emails, but getting them to
 render consistently
