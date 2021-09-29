@@ -5,13 +5,13 @@ render consistently
 [takes a little work](https://www.litmus.com/blog/the-ultimate-guide-to-bulleted-lists-in-html-email/).
 This is a shortcut for these elements.
 
-This component is designed for MJML 4+ and is unrelated to the v3 component [`mjml-list`](https://www.npmjs.com/package/mjml-list)
-
 **`<mj-list>`** replaces `<ul>`. Use it alongside
 [`<mj-text>`](https://documentation.mjml.io/#mj-text) within
 [`<mj-column>`](https://documentation.mjml.io/#mj-column).
 
 **`<mj-li>`** replaces `<li>`. Use it inside `<mj-list></mj-list>`.
+
+*MJML Bullet List is designed for MJML 4+ and is unrelated to the v3 component [`mjml-list`](https://www.npmjs.com/package/mjml-list).*
 
 ## Usage
 
