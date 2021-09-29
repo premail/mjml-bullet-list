@@ -1,7 +1,7 @@
 {
   "name": "mjml-list",
   "version": "1.0.0",
-  "description": "Easily use bulleted lists in your emails.",
+  "description": " Easily use bulleted lists in your MJML emails.",
   "scripts": {
     "start": "gulp watch",
     "build": "gulp build",
@@ -9,11 +9,28 @@
     "format": "prettier --write --single-quote --trailing-comma all '{components,test}/**/*.js'",
     "test": "jest"
   },
-  "author": "Premail.dev",
-  "license": "GPL-3.0-or-later",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/premail/mjml-list.git"
+    "type": "git",
+    "url": "https://github.com/premail/mjml-list.git"
+  },
+  "homepage": "https://github.com/premail/mjml-list",
+  "keywords": [
+    "email",
+    "mjml",
+    "mjml 4",
+    "mjml component",
+    "mjml framework",
+    "mjml template",
+    "mjml to html"
+  ],
+  "author": "Ivan Boothe <npm@rootwork.org> (https://rootwork.org/)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/premail/mjml-list/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/rootwork"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
