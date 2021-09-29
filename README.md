@@ -51,6 +51,22 @@ Will show this markup:
 
 (markup image to come)
 
+In your `<mj-head>` component, you should also add the following:
+
+```html
+<mj-html-attributes>
+  <mj-selector path=".list table table">
+    <mj-html-attribute name="role">list</mj-html-attribute>
+  </mj-selector>
+  <mj-selector path=".list table table > tbody">
+    <mj-html-attribute name="role">presentation</mj-html-attribute>
+  </mj-selector>
+</mj-html-attributes>
+```
+
+This will ensure that these lists are properly described as such when the email
+is read using assistive technology.
+
 You can customize aspects of both the list and individual list items using the
 options below.
 
