@@ -1,9 +1,11 @@
-# MJML List: `<mj-list>` and `<mj-li>`
+# MJML Bullet List: `<mj-list>` and `<mj-li>`
 
 `<ul>` and `<li>` HTML elements can be used in HTML emails, but getting them to
 render consistently
 [takes a little work](https://www.litmus.com/blog/the-ultimate-guide-to-bulleted-lists-in-html-email/).
 This is a shortcut for these elements.
+
+This component is designed for MJML 4+ and is unrelated to the v3 component [`mjml-list`](https://www.npmjs.com/package/mjml-list)
 
 **`<mj-list>`** replaces `<ul>`. Use it alongside
 [`<mj-text>`](https://documentation.mjml.io/#mj-text) within
@@ -118,7 +120,7 @@ options below.
 Install via npm:
 
 ```
-npm install mjml-list
+npm install mjml-bullet-list
 ```
 
 Then add the package to your `.mjmlconfig`:
@@ -126,7 +128,7 @@ Then add the package to your `.mjmlconfig`:
 ```
 {
   "packages": [
-    "mjml-list/lib/index.js"
+    "mjml-bullet-list/lib/index.js"
   ]
 }
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "mjml-list",
+  "name": "mjml-bullet-list",
   "version": "1.0.0",
   "description": " Easily use bulleted lists in your MJML emails.",
   "scripts": {
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/premail/mjml-list.git"
+    "url": "https://github.com/premail/mjml-bullet-list.git"
   },
-  "homepage": "https://github.com/premail/mjml-list",
+  "homepage": "https://github.com/premail/mjml-bullet-list",
   "keywords": [
     "email",
     "mjml",
@@ -26,7 +26,7 @@
   "author": "Ivan Boothe <npm@rootwork.org> (https://rootwork.org/)",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/premail/mjml-list/issues"
+    "url": "https://github.com/premail/mjml-bullet-list/issues"
   },
   "funding": {
     "type": "github",
