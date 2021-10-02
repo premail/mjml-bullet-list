@@ -34,6 +34,7 @@ Brought to you by [premail](https://premail.dev).
 * [MJML Bullet List: &lt;mj-list&gt; and &lt;mj-li&gt;](#mjml-bullet-list-mj-list-and-mj-li)
 * [Usage](#usage)
    * [Coding](#coding)
+   * [MJML Head](#mjml-head)
    * [Styling](#styling)
    * [Options](#options)
       * [Available options for &lt;mj-list&gt;](#available-options-for-mj-list)
@@ -42,7 +43,7 @@ Brought to you by [premail](https://premail.dev).
    * [Fork or contribute to this component](#fork-or-contribute-to-this-component)
 * [License](#license)
 
-<!-- Added by: runner, at: Sat Oct  2 02:04:16 UTC 2021 -->
+<!-- Added by: runner, at: Sat Oct  2 02:34:53 UTC 2021 -->
 
 <!--te-->
 <!-- prettier-ignore-end -->
