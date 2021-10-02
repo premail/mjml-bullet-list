@@ -29,6 +29,19 @@ Brought to you by [premail](https://premail.dev).
 <!-- prettier-ignore-start -->
 
 <!--ts-->
+* [MJML Bullet List: &lt;mj-list&gt; and &lt;mj-li&gt;](#mjml-bullet-list-mj-list-and-mj-li)
+* [Usage](#usage)
+   * [Coding](#coding)
+   * [Styling](#styling)
+   * [Options](#options)
+      * [Available options for &lt;mj-list&gt;](#available-options-for-mj-list)
+      * [Available options for &lt;mj-li&gt;](#available-options-for-mj-li)
+   * [Adding this to your emails](#adding-this-to-your-emails)
+   * [Fork or contribute to this component](#fork-or-contribute-to-this-component)
+* [License](#license)
+
+<!-- Added by: runner, at: Sat Oct  2 02:04:16 UTC 2021 -->
+
 <!--te-->
 <!-- prettier-ignore-end -->
 
