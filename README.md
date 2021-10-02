@@ -1,5 +1,10 @@
 # MJML Bullet List: `<mj-list>` and `<mj-li>`
 
+[![NPM](https://img.shields.io/npm/v/mjml-bullet-list?style=flat-square)](https://www.npmjs.com/package/mjml-bullet-list)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/premail/mjml-bullet-list?sort=semver&style=flat-square)](https://github.com/premail/mjml-bullet-list/releases)
+[![MJML 4.0+ valid](https://img.shields.io/badge/mjml-4%2B-brightgreen.svg?style=flat-square)](https://github.com/mjmlio/mjml/releases)
+[![License](https://img.shields.io/npm/l/mjml-bullet-list?color=brightgreen&style=flat-square)](https://github.com/premail/mjml-bullet-list/blob/main/LICENSE)
+
 `<ul>` and `<li>` HTML elements can be used in HTML emails, but getting them to
 render consistently
 [takes a little work](https://www.litmus.com/blog/the-ultimate-guide-to-bulleted-lists-in-html-email/).
@@ -14,9 +19,24 @@ This is a shortcut for these elements.
 _MJML Bullet List is designed for MJML 4+ and is unrelated to the v3 component
 [`mjml-list`](https://www.npmjs.com/package/mjml-list)._
 
-## Usage
+Brought to you by [premail](https://premail.dev).
 
-This MJML...
+---
+
+<!-- The following section, from the prettier-ignore-start to the
+  prettier-ignore-end, is an automatically-generated table of contents, updated
+  whenever this file changes. Do not edit within this section. -->
+<!-- prettier-ignore-start -->
+
+<!--ts-->
+<!--te-->
+<!-- prettier-ignore-end -->
+
+# Usage
+
+## Coding
+
+This MJML:
 
 ```html
 <mj-text>
@@ -59,7 +79,7 @@ This MJML...
 </mj-list>
 ```
 
-Will show this markup:
+Will produce the following visual representation:
 
 (markup image to come)
 
@@ -79,10 +99,13 @@ In your `<mj-head>` component, you should also add the following:
 This will ensure that these lists are properly described as such when the email
 is read using assistive technology.
 
-You can customize aspects of both the list and individual list items using the
-options below.
+## Styling
 
-## `<mj-list>` options
+(Styling details to come.)
+
+## Options
+
+### Available options for `<mj-list>`
 
 | option                   | unit                                                                       | details                                                                      | default value                  |
 | ------------------------ | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------ |
@@ -103,7 +126,7 @@ options below.
 | `vertical-align`         | `top`, `middle`, `bottom`                                                  | Applies to entire list                                                       | `top`                          |
 | `width`                  | pixels                                                                     | Applies to entire list                                                       | none (full width of container) |
 
-## `<mj-li>` options
+### Available options for `<mj-li>`
 
 | option             | unit                                 | details                                 | default value                                                                                       |
 | ------------------ | ------------------------------------ | --------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -115,7 +138,7 @@ options below.
 | `font-size`        | pixels                               | Applies to list item                    | `13px` (from [`<mj-text>`](https://documentation.mjml.io/#mj-text))                                 |
 | `font-style`       | string                               | Applies to list item                    | none                                                                                                |
 | `font-weight`      | string                               | Applies to list item                    | none                                                                                                |
-| `gutter`           | pixels                               | Distance between bullet marker and text | default set in [`themeConfig.yaml`](designs/_templates/theme/themeConfig.yaml)                      |
+| `gutter`           | pixels                               | Distance between bullet marker and text | `3px`                                                                                               |
 | `letter-spacing`   | pixels (negative allowed)            | Applies to list item                    | none                                                                                                |
 | `line-height`      | number, pixels or percentage         | Applies to list item                    | none                                                                                                |
 | `padding-right`    | pixels                               | Applies to list item                    | none                                                                                                |
@@ -125,24 +148,53 @@ options below.
 | `text-transform`   | string                               | Applies to list item                    | none                                                                                                |
 | `vertical-align`   | `top`, `middle`, `bottom`            | Applies to list item                    | `top`                                                                                               |
 
-## Setup
+## Adding this to your emails
 
-Install via npm:
+In your MJML project directory, install this package via npm:
 
-```
+```sh
 npm install mjml-bullet-list
 ```
 
-Then add the package to your `.mjmlconfig`:
+Add the package to your `.mjmlconfig`:
 
-```
+```json
 {
-  "packages": [
-    "mjml-bullet-list/lib/index.js"
-  ]
+  "packages": ["mjml-bullet-list/lib/index.js"]
 }
 ```
 
-## License
+You can now use `<mj-list>` and `<mj-li>` in your MJML emails.
+
+## Fork or contribute to this component
+
+If you want to edit this component, first grab it via git:
+
+```sh
+git clone https://github.com/premail/mjml-bullet-list.git
+```
+
+Navigate to the folder and install:
+
+```sh
+cd mjml-bullet-list
+npm install
+```
+
+Edit the component script file in `./components/`, then run `gulp build` or
+`gulp watch` to compile. We include
+[sheerun/modern-node](https://github.com/sheerun/modern-node), which formats and
+lints code automatically on commits using [Prettier](https://prettier.io/) and
+[ESLint](https://eslint.org/). You can use `npm run format` and `npm run lint`
+on their own as well.
+
+To run tests, use `npm run test`
+
+If you want to use a forked version of this component in your emails without
+having to publish it to npm, see
+[premail/mjml-custom-component](https://github.com/premail/mjml-custom-component)
+for a guide.
+
+# License
 
 GPLv3. See [LICENSE](LICENSE).
