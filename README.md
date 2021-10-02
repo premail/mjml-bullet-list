@@ -11,7 +11,8 @@ This is a shortcut for these elements.
 
 **`<mj-li>`** replaces `<li>`. Use it inside `<mj-list></mj-list>`.
 
-*MJML Bullet List is designed for MJML 4+ and is unrelated to the v3 component [`mjml-list`](https://www.npmjs.com/package/mjml-list).*
+_MJML Bullet List is designed for MJML 4+ and is unrelated to the v3 component
+[`mjml-list`](https://www.npmjs.com/package/mjml-list)._
 
 ## Usage
 
@@ -19,8 +20,10 @@ This MJML...
 
 ```html
 <mj-text>
-  <p>Examples of the custom "mj-list" and "mj-li" tags. Here is a list with an
-  option set on the entire list:</p>
+  <p>
+    Examples of the custom "mj-list" and "mj-li" tags. Here is a list with an
+    option set on the entire list:
+  </p>
 </mj-text>
 <mj-list background-color="#ddd" border-top="18px #ddd solid">
   <mj-li>List item one.</mj-li>
@@ -32,20 +35,27 @@ This MJML...
   <p>And here's a list with options set on individual list items:</p>
 </mj-text>
 <mj-list>
-  <mj-li>List item one. Lorem ipsum dolor sit amet, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua.</mj-li>
-  <mj-li color="blue">List item two, customized color for the entire list item.</mj-li>
+  <mj-li
+    >List item one. Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
+    ut labore et dolore magna aliqua.</mj-li
+  >
+  <mj-li color="blue"
+    >List item two, customized color for the entire list item.</mj-li
+  >
   <mj-li>List item three.</mj-li>
-  <mj-li bullet-color="red" padding-left="40px">List item four, customized
-    bullet color and left padding. Duis aute irure dolor in reprehenderit in
-    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-    anim id est laborum.</mj-li>
+  <mj-li bullet-color="red" padding-left="40px"
+    >List item four, customized bullet color and left padding. Duis aute irure
+    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+    officia deserunt mollit anim id est laborum.</mj-li
+  >
   <mj-li gutter="20px">List item five, custom gutter size.</mj-li>
   <mj-li>List item six.</mj-li>
-  <mj-li text-color="green">List item seven, customized text (only) color. Ut
-    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-    aliquip ex ea commodo consequat.</mj-li>
+  <mj-li text-color="green"
+    >List item seven, customized text (only) color. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat.</mj-li
+  >
 </mj-list>
 ```
 

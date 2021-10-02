@@ -27,18 +27,25 @@ const compile = () => {
     .on('end', () => {
       watchedComponents.forEach(compPath => {
         if (compPath.endsWith('.swp')) {
-          return;
+          return
         }
-        const fullPath = path.join(process.cwd(), compPath.replace(/^components/, 'lib'))
+        const fullPath = path.join(
+          process.cwd(),
+          compPath.replace(/^components/, 'lib')
+        )
         delete require.cache[fullPath]
         registerComponent(require(fullPath).default)
       })
 
-      fs.readFile(path.normalize('./examples/index.mjml'), 'utf8', (err, data) => {
-        if (err) throw err
-        const result = mjml2html(data)
-        fs.writeFileSync(path.normalize('./examples/index.html'), result.html)
-      })
+      fs.readFile(
+        path.normalize('./examples/index.mjml'),
+        'utf8',
+        (err, data) => {
+          if (err) throw err
+          const result = mjml2html(data)
+          fs.writeFileSync(path.normalize('./examples/index.html'), result.html)
+        }
+      )
     })
 }
 
@@ -46,5 +53,8 @@ gulp.task('build', compile)
 
 gulp.task('watch', () => {
   compile()
-  return watch([path.normalize('components/**/*.js'), path.normalize('index.mjml')], compile)
+  return watch(
+    [path.normalize('components/**/*.js'), path.normalize('index.mjml')],
+    compile
+  )
 })

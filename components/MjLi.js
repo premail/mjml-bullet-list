@@ -11,14 +11,14 @@ export default class MjLi extends BodyComponent {
 
   static allowedAttributes = {
     'background-color': 'color',
-    'bullet': 'string',
+    bullet: 'string',
     'bullet-color': 'color',
-    'color': 'color',
+    color: 'color',
     'font-family': 'string',
     'font-size': 'unit(px)',
     'font-style': 'string',
     'font-weight': 'string',
-    'gutter': 'unit(px)',
+    gutter: 'unit(px)',
     'letter-spacing': 'unitWithNegative(px,em)',
     'line-height': 'unit(px,%,)',
     'padding-left': 'unit(px,%)',
@@ -55,13 +55,14 @@ export default class MjLi extends BodyComponent {
       [data-outlook-cycle] .list-item--custom { list-style: initial !important; }
   `
 
-  getStyles() {
-    const textColor = this.getAttribute('text-color') || this.getAttribute('color')
+  getStyles () {
+    const textColor =
+      this.getAttribute('text-color') || this.getAttribute('color')
 
     return {
       ulStyle: {
         'background-color': this.getAttribute('background-color'),
-        'color': this.getAttribute('color'),
+        color: this.getAttribute('color'),
         'font-family': this.getAttribute('font-family'),
         'font-size': this.getAttribute('font-size'),
         'font-style': this.getAttribute('font-style'),
@@ -72,31 +73,31 @@ export default class MjLi extends BodyComponent {
         'margin-left': this.getAttribute('padding-left'),
         'margin-right': this.getAttribute('padding-right'),
         'margin-bottom': '0',
-        'padding': '0',
+        padding: '0',
         'text-decoration': this.getAttribute('text-decoration'),
         'text-transform': this.getAttribute('text-transform'),
         'text-align': this.getAttribute('align'),
       },
       liStyle: {
-        'color': this.getAttribute('bullet-color'),
-        'margin': '0',
-        'padding': '0',
+        color: this.getAttribute('bullet-color'),
+        margin: '0',
+        padding: '0',
         'padding-left': this.getAttribute('gutter'),
         'text-decoration': this.getAttribute('text-decoration'),
         'text-transform': this.getAttribute('text-transform'),
         'text-align': this.getAttribute('align'),
       },
       textWrap: {
-        'color': textColor,
+        color: textColor,
         'letter-spacing': this.getAttribute('letter-spacing'),
         'text-decoration': this.getAttribute('text-decoration'),
         'text-transform': this.getAttribute('text-transform'),
         'text-align': this.getAttribute('text-align'),
-      }
+      },
     }
   }
 
-  render() {
+  render () {
     let itemClass = 'list-item'
     let bulletStyle = ''
 
