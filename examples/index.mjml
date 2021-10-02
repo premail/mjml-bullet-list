@@ -1,5 +1,7 @@
 <mjml>
   <mj-head>
+    <!-- You should always include this attributes section for accessibility
+         reasons. See https://github.com/premail/mjml-bullet-list#mjml-head -->
     <mj-html-attributes>
       <mj-selector path=".list table table">
         <mj-html-attribute name="role">list</mj-html-attribute>
@@ -8,6 +10,8 @@
         <mj-html-attribute name="role">presentation</mj-html-attribute>
       </mj-selector>
     </mj-html-attributes>
+    <!-- This sets attributes for the entire email. See
+         https://documentation.mjml.io/#mj-attributes -->
     <mj-attributes>
       <mj-all
         font-size="16px"
@@ -15,6 +19,9 @@
         font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Liberation Sans, Helvetica, Arial, sans-serif"
       />
     </mj-attributes>
+
+    <!-- These CSS styles will be automatically applied and inlined by MJML.
+         See https://documentation.mjml.io/#mj-style -->
     <!-- prettier-ignore -->
     <mj-style inline="inline">
       .list {
@@ -23,6 +30,7 @@
       }
     </mj-style>
   </mj-head>
+
   <mj-body>
     <mj-section>
       <mj-column>
