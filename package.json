@@ -2,12 +2,14 @@
   "name": "mjml-bullet-list",
   "version": "1.0.0",
   "description": " Easily use bulleted lists in your MJML emails.",
+  "main": "index.js",
   "scripts": {
     "start": "gulp watch",
     "build": "gulp build",
-    "lint": "eslint components",
-    "format": "prettier --write --single-quote --trailing-comma all '{components,test}/**/*.js'",
-    "test": "jest"
+    "test": "modern test",
+    "format": "modern format",
+    "lint": "modern lint",
+    "precommit": "modern precommit"
   },
   "repository": {
     "type": "git",
@@ -37,18 +39,23 @@
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.9.6",
     "@babel/register": "^7.9.0",
-    "eslint": "^4.18.2",
-    "eslint-config-airbnb": "^10.0.0",
-    "eslint-plugin-import": "^1.13.0",
-    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "fancy-log": "^1.3.2",
+    "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-watch": "^4.3.9",
-    "jest": "^26.0.1",
-    "prettier": "^2.0.5"
+    "modern-node": "^2.9.0",
+    "prettier": "^2.4.1"
   },
   "dependencies": {
-    "gulp": "^4.0.2",
-    "mjml": "^4.0.0"
+    "mjml": "^4.0.0",
+    "mjml-core": "^4.10.3"
   }
 }
