@@ -1,6 +1,6 @@
 {
   "packages": [
-    "./lib/MjList.js"
+    "./lib/MjList.js",
     "./lib/MjLi.js"
   ]
 }
