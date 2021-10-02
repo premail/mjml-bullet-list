@@ -29,6 +29,7 @@ export default class MjList extends BodyComponent {
 
   static defaultAttributes = {
     direction: 'ltr',
+    'padding-left': '25px',
     'vertical-align': 'top',
   }
 

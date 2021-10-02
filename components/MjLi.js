@@ -11,7 +11,6 @@ export default class MjLi extends BodyComponent {
 
   static allowedAttributes = {
     'background-color': 'color',
-    bullet: 'string',
     'bullet-color': 'color',
     color: 'color',
     'font-family': 'string',
@@ -37,24 +36,6 @@ export default class MjLi extends BodyComponent {
     'text-align': 'left',
     'vertical-align': 'top',
   }
-
-  headStyle = () => `
-    @list list-item--custom {
-      mso-level-number-format: bullet;
-      mso-level-text: ${this.getAttribute('bullet')};
-    }
-    @media screen and ( -webkit-min-device-pixel-ratio:0 ) {
-      .list-item--custom { list-style: none; }
-      .list-item--custom:before {
-        content: '${this.getAttribute('bullet')}';
-        margin-left: -10px;
-      }
-      .list-item--custom span {
-        padding-left: 5px;
-      }
-      [class="x_custom"] { list-style: initial !important; }
-      [data-outlook-cycle] .list-item--custom { list-style: initial !important; }
-  `
 
   getStyles () {
     const textColor =
@@ -100,15 +81,9 @@ export default class MjLi extends BodyComponent {
 
   render () {
     let itemClass = 'list-item'
-    let bulletStyle = ''
 
     if (this.getAttribute('css-class')) {
       itemClass += ` ${this.getAttribute('css-class')}`
-    }
-
-    if (this.getAttribute('bullet')) {
-      itemClass += ' list-item--custom'
-      bulletStyle += "'mso-list': 'list-item--custom',"
     }
 
     return `
@@ -125,7 +100,7 @@ export default class MjLi extends BodyComponent {
           ${this.htmlAttributes({
             role: 'list-item',
             class: `${itemClass}`,
-            style: `liStyle ${bulletStyle}`,
+            style: 'liStyle',
           })}
         >
           <span
