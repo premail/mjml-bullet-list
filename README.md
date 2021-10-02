@@ -8,7 +8,8 @@
 `<ul>` and `<li>` HTML elements can be used in HTML emails, but getting them to
 render consistently
 [takes a little work](https://www.litmus.com/blog/the-ultimate-guide-to-bulleted-lists-in-html-email/).
-This is a shortcut for these elements.
+This is a shortcut for these elements. Its output is predictably boring, but
+bulletproof (forgive the pun) for email clients:
 
 ![Example of simple generated markup from the MJML Bullet List component](examples/mjml-bullet-list-screenshot-simple.png)
 
@@ -67,7 +68,7 @@ Will produce the following visual representation:
 
 ![Example of simple generated markup from the MJML Bullet List component](examples/mjml-bullet-list-screenshot-simple.png)
 
-Not very exciting, but bulletproof for email clients.
+Not very exciting, but reliably rendered in all email clients.
 
 But you can get more creative. This MJML:
 
