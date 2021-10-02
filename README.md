@@ -22,7 +22,9 @@ bulletproof (forgive the pun) for email clients:
 _MJML Bullet List is designed for MJML 4+ and is unrelated to the v3 component
 [`mjml-list`](https://www.npmjs.com/package/mjml-list)._
 
-Brought to you by [premail](https://premail.dev).
+---
+
+**Brought to you by [premail](https://github.com/premail).**
 
 ---
 
