@@ -81,7 +81,7 @@ But you can get more creative. This MJML:
     option set on the entire list:
   </p>
 </mj-text>
-<mj-list background-color="#ddd" border-top="18px #ddd solid">
+<mj-list background-color="#ddd">
   <mj-li>List item one.</mj-li>
   <mj-li>List item two.</mj-li>
   <mj-li>List item three.</mj-li>
