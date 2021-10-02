@@ -33,6 +33,7 @@ export default class MjLi extends BodyComponent {
   static defaultAttributes = {
     'font-family': 'Ubuntu, Helvetica, Arial, sans-serif',
     'font-size': '13px',
+    gutter: '3px',
     'text-align': 'left',
     'vertical-align': 'top',
   }
