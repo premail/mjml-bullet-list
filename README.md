@@ -10,6 +10,8 @@ render consistently
 [takes a little work](https://www.litmus.com/blog/the-ultimate-guide-to-bulleted-lists-in-html-email/).
 This is a shortcut for these elements.
 
+![Example of simple generated markup from the MJML Bullet List component](examples/mjml-bullet-list-screenshot-simple.png)
+
 **`<mj-list>`** replaces `<ul>`. Use it alongside
 [`<mj-text>`](https://documentation.mjml.io/#mj-text) within
 [`<mj-column>`](https://documentation.mjml.io/#mj-column).
@@ -50,6 +52,23 @@ Brought to you by [premail](https://premail.dev).
 ## Coding
 
 This MJML:
+
+```html
+<mj-list>
+  <mj-li>List item one.</mj-li>
+  <mj-li>List item two.</mj-li>
+  <mj-li>List item three.</mj-li>
+  <mj-li>List item four.</mj-li>
+</mj-list>
+```
+
+Will produce the following visual representation:
+
+![Example of simple generated markup from the MJML Bullet List component](examples/mjml-bullet-list-screenshot-simple.png)
+
+Not very exciting, but bulletproof for email clients.
+
+But you can get more creative. This MJML:
 
 ```html
 <mj-text>
@@ -94,7 +113,9 @@ This MJML:
 
 Will produce the following visual representation:
 
-(markup image to come)
+![Example of advanced generated markup from the MJML Bullet List component](examples/mjml-bullet-list-screenshot-advanced.png)
+
+## MJML Head
 
 In your `<mj-head>` component, you should also add the following:
 
@@ -114,7 +135,12 @@ is read using assistive technology.
 
 ## Styling
 
-(Styling details to come.)
+In addition to setting attributes with the elements options (see below), you can
+also modify them through CSS. Use
+[`<mj-style>`](https://documentation.mjml.io/#mj-style) and target the `.list`
+and `.list-item` classes.
+
+You can see this being done in the [example MJML file](examples/index.mjml).
 
 ## Options
 
