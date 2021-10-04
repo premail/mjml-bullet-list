@@ -203,7 +203,7 @@ Add the package to your `.mjmlconfig`:
 
 ```json
 {
-  "packages": ["mjml-bullet-list/lib/index.js"]
+  "packages": ["mjml-bullet-list"]
 }
 ```
 
