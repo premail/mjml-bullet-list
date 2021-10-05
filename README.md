@@ -203,7 +203,7 @@ Add the package to your `.mjmlconfig`:
 
 ```json
 {
-  "packages": ["mjml-bullet-list"]
+  "packages": ["mjml-bullet-list/lib/MjList", "mjml-bullet-list/lib/MjLi"]
 }
 ```
 
