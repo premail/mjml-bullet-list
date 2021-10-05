@@ -50,6 +50,7 @@ export default class MjLi extends BodyComponent {
         'font-style': this.getAttribute('font-style'),
         'font-weight': this.getAttribute('font-weight'),
         'letter-spacing': this.getAttribute('letter-spacing'),
+        'mso-line-height-rule': 'exactly',
         'line-height': this.getAttribute('line-height'),
         'margin-top': '0',
         'margin-left': this.getAttribute('padding-left'),
