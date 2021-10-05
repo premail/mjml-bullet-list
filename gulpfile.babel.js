@@ -5,18 +5,6 @@ import log from 'fancy-log'
 import fs from 'fs'
 import path from 'path'
 import mjml2html from 'mjml'
-import { registerComponent } from 'mjml-core'
-
-const walkSync = (dir, filelist = []) => {
-  fs.readdirSync(dir).forEach(file => {
-    filelist = fs.statSync(path.join(dir, file)).isDirectory()
-      ? walkSync(path.join(dir, file), filelist)
-      : filelist.concat(path.join(dir, file))
-  })
-  return filelist
-}
-
-const watchedComponents = walkSync('./components')
 
 const compile = () => {
   return gulp
@@ -25,18 +13,6 @@ const compile = () => {
     .on('error', log)
     .pipe(gulp.dest('lib'))
     .on('end', () => {
-      watchedComponents.forEach(compPath => {
-        if (compPath.endsWith('.swp')) {
-          return
-        }
-        const fullPath = path.join(
-          process.cwd(),
-          compPath.replace(/^components/, 'lib')
-        )
-        delete require.cache[fullPath]
-        registerComponent(require(fullPath).default)
-      })
-
       fs.readFile(
         path.normalize('./examples/index.mjml'),
         'utf8',
