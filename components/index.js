@@ -1,2 +1,4 @@
-export { default as MjList } from './MjList'
-export { default as MjLi } from './MjLi'
+module.exports = {
+  ...require('./MjList'),
+  ...require('./MjLi'),
+}
