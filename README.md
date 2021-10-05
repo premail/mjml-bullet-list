@@ -46,7 +46,7 @@ _MJML Bullet List is designed for MJML 4+ and is unrelated to the v3 component
    * [Fork or contribute to this component](#fork-or-contribute-to-this-component)
 * [License](#license)
 
-<!-- Added by: runner, at: Tue Oct  5 00:53:53 UTC 2021 -->
+<!-- Added by: runner, at: Tue Oct  5 21:24:20 UTC 2021 -->
 
 <!--te-->
 <!-- prettier-ignore-end -->
