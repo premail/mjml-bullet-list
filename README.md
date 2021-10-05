@@ -34,20 +34,19 @@ _MJML Bullet List is designed for MJML 4+ and is unrelated to the v3 component
 <!-- prettier-ignore-start -->
 
 <!--ts-->
+* [MJML Bullet List: &lt;mj-list&gt; and &lt;mj-li&gt;](#mjml-bullet-list-mj-list-and-mj-li)
+* [Usage](#usage)
+   * [Coding](#coding)
+   * [MJML Head](#mjml-head)
+   * [Styling](#styling)
+   * [Options](#options)
+      * [Available options for &lt;mj-list&gt;](#available-options-for-mj-list)
+      * [Available options for &lt;mj-li&gt;](#available-options-for-mj-li)
+   * [Adding this to your emails](#adding-this-to-your-emails)
+   * [Fork or contribute to this component](#fork-or-contribute-to-this-component)
+* [License](#license)
 
-- [MJML Bullet List: &lt;mj-list&gt; and &lt;mj-li&gt;](#mjml-bullet-list-mj-list-and-mj-li)
-- [Usage](#usage)
-  - [Coding](#coding)
-  - [MJML Head](#mjml-head)
-  - [Styling](#styling)
-  - [Options](#options)
-    - [Available options for &lt;mj-list&gt;](#available-options-for-mj-list)
-    - [Available options for &lt;mj-li&gt;](#available-options-for-mj-li)
-  - [Adding this to your emails](#adding-this-to-your-emails)
-  - [Fork or contribute to this component](#fork-or-contribute-to-this-component)
-- [License](#license)
-
-<!-- Added by: runner, at: Mon Oct  4 23:29:50 UTC 2021 -->
+<!-- Added by: runner, at: Tue Oct  5 00:53:53 UTC 2021 -->
 
 <!--te-->
 <!-- prettier-ignore-end -->
