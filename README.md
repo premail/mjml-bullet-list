@@ -35,7 +35,7 @@
 
 ---
 
-**`<mjml-bullet-list>` is brought to you by
+**This MJML component is brought to you by
 [Premail](https://github.com/premail), and the following documentation can also
 be found at <https://premail.dev/docs/components/mjml-bullet-list/>**
 
