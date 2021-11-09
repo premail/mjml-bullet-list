@@ -35,9 +35,11 @@
 
 ---
 
-**This MJML component is brought to you by
+<img src="https://raw.githubusercontent.com/premail/mjml-bullet-list/main/docs/images/icon.svg" alt="Premail" width="75" height="75">
+<strong>This MJML component is brought to you by
 [Premail](https://github.com/premail), and the following documentation can also
-be found at <https://premail.dev/docs/components/mjml-bullet-list/>**
+be found at
+<a href="https://premail.dev/docs/components/mjml-bullet-list">https://premail.dev/docs/components/mjml-bullet-list</a></strong>
 
 ---
 
@@ -69,6 +71,7 @@ _MJML Bullet List is designed for MJML 4+ and is unrelated to the v3 component
     - [Available options for &lt;mj-li&gt;](#available-options-for-mj-li)
   - [Adding this to your emails](#adding-this-to-your-emails)
   - [Fork or contribute to this component](#fork-or-contribute-to-this-component)
+- [Security](#security)
 - [License](#license)
 
 # Usage
@@ -257,6 +260,14 @@ If you want to use a forked version of this component in your emails without
 having to publish it to npm, see
 [premail/mjml-custom-component](https://github.com/premail/mjml-custom-component)
 for a guide.
+
+# Security
+
+Legalese: This component is provided **"as is"** without any warranty. Use at
+your own risk.
+
+_For more information and to report security issues, please refer to our
+[security documentation](https://github.com/premail/mjml-bullet-list/blob/main/docs/SECURITY.md)._
 
 # License
 
