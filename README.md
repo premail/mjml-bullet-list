@@ -35,7 +35,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/premail/mjml-bullet-list/main/docs/images/icon.svg" alt="Premail" width="50" height="50" align="left" /><strong>This
+<a href="https://github.com/premail"><img src="https://raw.githubusercontent.com/premail/mjml-bullet-list/main/docs/images/icon.svg" alt="Premail" width="50" height="50" align="left" /></a><strong>This
 MJML component is brought to you by
 <a href="https://github.com/premail">Premail</a>, and the following
 documentation can also be found at
