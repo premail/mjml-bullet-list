@@ -265,4 +265,4 @@ or later. To be clear: This license only covers the component's code, _not_ any
 content you generate _using_ it.
 
 For the legal details of the AGPL, see the complete
-[LICENSE](https://github.com/premail/premail/blob/main/LICENSE).
+[LICENSE](https://github.com/premail/mjml-bullet-list/blob/main/LICENSE).
