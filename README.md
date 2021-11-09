@@ -1,5 +1,16 @@
 # MJML Bullet List: `<mj-list>` and `<mj-li>`
 
+<!-- This component's documentation and README need to stay in sync. Make sure
+     to make any updates here in both places:
+
+     https://premail.dev/docs/components/mjml-bullet-list/
+     https://github.com/premail/mjml-bullet-list/blob/main/README.md
+
+     Should differences exist, the README is considered canonical as it is
+     published to NPM:
+     https://www.npmjs.com/package/mjml-bullet-list
+-->
+
 [![NPM](https://img.shields.io/npm/v/mjml-bullet-list?style=flat-square)](https://www.npmjs.com/package/mjml-bullet-list)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/premail/mjml-bullet-list?sort=semver&style=flat-square)](https://github.com/premail/mjml-bullet-list/releases)
 [![MJML 4.0+ valid](https://img.shields.io/badge/mjml-4%2B-brightgreen.svg?style=flat-square)](https://github.com/mjmlio/mjml/releases)
