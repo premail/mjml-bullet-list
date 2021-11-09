@@ -49,7 +49,7 @@ render consistently
 This is a shortcut for these elements. Its output is predictably boring, but
 bulletproof (forgive the pun) for email clients:
 
-![Example of simple generated markup from the MJML Bullet List component](examples/mjml-bullet-list-screenshot-simple.png)
+![Example of simple generated markup from the MJML Bullet List component](docs/images/mjml-bullet-list-screenshot-simple.png)
 
 **`<mj-list>`** replaces `<ul>`. Use it alongside
 [`<mj-text>`](https://documentation.mjml.io/#mj-text) within
@@ -91,7 +91,7 @@ This MJML:
 
 Will produce the following visual representation:
 
-![Example of simple generated markup from the MJML Bullet List component](examples/mjml-bullet-list-screenshot-simple.png)
+![Example of simple generated markup from the MJML Bullet List component](docs/images/mjml-bullet-list-screenshot-simple.png)
 
 Not very exciting, but reliably rendered in all email clients.
 
@@ -140,7 +140,7 @@ But you can get more creative. This MJML:
 
 Will produce the following visual representation:
 
-![Example of advanced generated markup from the MJML Bullet List component](examples/mjml-bullet-list-screenshot-advanced.png)
+![Example of advanced generated markup from the MJML Bullet List component](docs/images/mjml-bullet-list-screenshot-advanced.png)
 
 ## MJML Head
 
@@ -167,7 +167,7 @@ also modify them through CSS. Use
 [`<mj-style>`](https://documentation.mjml.io/#mj-style) and target the `.list`
 and `.list-item` classes.
 
-You can see this being done in the [example MJML file](examples/index.mjml).
+You can see this being done in the [example MJML file](docs/example.mjml).
 
 ## Options
 
