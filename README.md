@@ -1,4 +1,4 @@
-<h1 align="center">MJML Bullet List: <code>&lt;mj-list&rt;</code> and <code>&lt;mj-li&rt;</code></h1>
+<h1 align="center">MJML Bullet List: <code>&lt;mj-list&gt;</code> and <code>&lt;mj-li&gt;</code></h1>
 
 <!-- This component's documentation and README need to stay in sync. Make sure
      to make any updates here in both places:
