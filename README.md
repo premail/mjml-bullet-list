@@ -260,9 +260,9 @@ for a guide.
 
 # License
 
-`<mjml-bullet-list>` is licensed under the GNU Affero General Public License
-v3.0 or later. To be clear: This license only covers the component's code, _not_
-any content you generate _using_ it.
+`mjml-bullet-list` is licensed under the GNU Affero General Public License v3.0
+or later. To be clear: This license only covers the component's code, _not_ any
+content you generate _using_ it.
 
 For the legal details of the AGPL, see the complete
 [LICENSE](https://github.com/premail/premail/blob/main/LICENSE).
