@@ -1,4 +1,4 @@
-# MJML Bullet List: `<mj-list>` and `<mj-li>`
+<h1 align="center">MJML Bullet List: <code>&lt;mj-list&rt;</code> and <code>&lt;mj-li&rt;</code></h1>
 
 <!-- This component's documentation and README need to stay in sync. Make sure
      to make any updates here in both places:
@@ -12,7 +12,7 @@
 -->
 
 <div align="center">
-  <strong><code>&lt;mjml-bullet-list&gt;</code> makes bulletproof bulleted lists in emails easy (phew!)</strong><br />
+  <strong>Making bulletproof bulleted lists in emails easy with MJML!</strong><br />
   <br />
   <a href="https://github.com/premail/mjml-bullet-list/issues/new?assignees=&labels=Type%3A+Bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   &bullet;
@@ -26,7 +26,6 @@
 
 [![NPM](https://img.shields.io/npm/v/mjml-bullet-list?style=flat-square)](https://www.npmjs.com/package/mjml-bullet-list)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/premail/mjml-bullet-list?sort=semver&style=flat-square)](https://github.com/premail/mjml-bullet-list/releases)
-
 ![Checks](https://img.shields.io/github/checks-status/premail/mjml-bullet-list/main.svg?style=flat-square)
 [![MJML 4.0+ valid](https://img.shields.io/badge/mjml-4%2B-brightgreen.svg?style=flat-square)](https://github.com/mjmlio/mjml/releases)
 [![License: AGPL-3.0+](https://img.shields.io/github/license/premail/premail?style=flat-square&color=blue)](https://github.com/premail/mjml-bullet-list/blob/main/LICENSE)
