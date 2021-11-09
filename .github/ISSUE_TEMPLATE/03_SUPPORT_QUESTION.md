@@ -6,4 +6,4 @@ labels: 'Type: Question'
 assignees: ''
 ---
 
-# Support Question
+**What version of this component are you using?**
