@@ -35,11 +35,11 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/premail/mjml-bullet-list/main/docs/images/icon.svg" alt="Premail" width="75" height="75">
-<strong>This MJML component is brought to you by
-[Premail](https://github.com/premail), and the following documentation can also
-be found at
-<a href="https://premail.dev/docs/components/mjml-bullet-list">https://premail.dev/docs/components/mjml-bullet-list</a></strong>
+<img src="https://raw.githubusercontent.com/premail/mjml-bullet-list/main/docs/images/icon.svg" alt="Premail" width="75" height="75" align="left" /><strong>This
+MJML component is brought to you by
+<a href="https://github.com/premail">Premail</a>, and the following
+documentation can also be found at
+<a href="https://premail.dev/docs/components/mjml-bullet-list">https://premail.dev/docs/components/mjml-bullet-list</a></strong><br />
 
 ---
 
