@@ -11,10 +11,36 @@
      https://www.npmjs.com/package/mjml-bullet-list
 -->
 
+<div align="center">
+  <strong><code>&lt;mjml-bullet-list&gt;</code> makes bulletproof bulleted lists in emails easy (phew!)</strong><br />
+  <br />
+  <a href="https://github.com/premail/mjml-bullet-list/issues/new?assignees=&labels=Type%3A+Bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  &bullet;
+  <a href="https://github.com/premail/mjml-bullet-list/issues/new?assignees=&labels=Type%3A+Feature&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+  &bullet;
+  <a href="https://github.com/premail/mjml-bullet-list/issues/new?assignees=&labels=Type%3A+Question&template=03_SUPPORT_QUESTION.md&title=support%3A+">Ask a Question</a>
+</div>
+
+<div align="center">
+<br />
+
 [![NPM](https://img.shields.io/npm/v/mjml-bullet-list?style=flat-square)](https://www.npmjs.com/package/mjml-bullet-list)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/premail/mjml-bullet-list?sort=semver&style=flat-square)](https://github.com/premail/mjml-bullet-list/releases)
+
+![Checks](https://img.shields.io/github/checks-status/premail/mjml-bullet-list/main.svg?style=flat-square)
 [![MJML 4.0+ valid](https://img.shields.io/badge/mjml-4%2B-brightgreen.svg?style=flat-square)](https://github.com/mjmlio/mjml/releases)
-[![License](https://img.shields.io/npm/l/mjml-bullet-list?color=brightgreen&style=flat-square)](https://github.com/premail/mjml-bullet-list/blob/main/LICENSE)
+[![License: AGPL-3.0+](https://img.shields.io/github/license/premail/premail?style=flat-square&color=blue)](https://github.com/premail/mjml-bullet-list/blob/main/LICENSE)
+[![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/premail/mjml-bullet-list/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22%2C%22Status%3A+Available%22+sort%3Aupdated-desc+)
+
+</div>
+
+---
+
+**`<mjml-bullet-list>` is brought to you by
+[Premail](https://github.com/premail), and the following documentation can also
+be found at <https://premail.dev/docs/components/mjml-bullet-list/>**
+
+---
 
 `<ul>` and `<li>` HTML elements can be used in HTML emails, but getting them to
 render consistently
@@ -32,10 +58,6 @@ bulletproof (forgive the pun) for email clients:
 
 _MJML Bullet List is designed for MJML 4+ and is unrelated to the v3 component
 [`mjml-list`](https://www.npmjs.com/package/mjml-list)._
-
----
-
-**Brought to you by [premail](https://github.com/premail).**
 
 ---
 
@@ -239,4 +261,9 @@ for a guide.
 
 # License
 
-GPLv3. See [LICENSE](LICENSE).
+`<mjml-bullet-list>` is licensed under the GNU Affero General Public License
+v3.0 or later. To be clear: This license only covers the component's code, _not_
+any content you generate _using_ it.
+
+For the legal details of the AGPL, see the complete
+[LICENSE](https://github.com/premail/premail/blob/main/LICENSE).
