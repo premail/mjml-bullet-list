@@ -28,7 +28,7 @@
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/premail/mjml-bullet-list?sort=semver&style=flat-square)](https://github.com/premail/mjml-bullet-list/releases)
 ![Checks](https://img.shields.io/github/checks-status/premail/mjml-bullet-list/main.svg?style=flat-square)
 [![MJML 4.0+ valid](https://img.shields.io/badge/mjml-4%2B-brightgreen.svg?style=flat-square)](https://github.com/mjmlio/mjml/releases)
-[![License: AGPL-3.0+](https://img.shields.io/github/license/premail/mjml-bullet-list?style=flat-square&color=blue)](https://github.com/premail/mjml-bullet-list/blob/main/LICENSE)
+[![License: AGPL-3.0+](https://img.shields.io/badge/license-%20AGPL-blue?style=flat-square&logo=gnu)](https://github.com/premail/mjml-bullet-list/blob/main/LICENSE)
 [![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/premail/mjml-bullet-list/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22%2C%22Status%3A+Available%22+sort%3Aupdated-desc+)
 
 </div>
