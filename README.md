@@ -14,11 +14,11 @@
 <div align="center">
   <strong>Making bulletproof bulleted lists in emails easy with MJML!</strong><br />
   <br />
-  <a href="https://github.com/premail/mjml-bullet-list/issues/new?assignees=&labels=Type%3A+Bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  <a href="https://github.com/premail/mjml-bullet-list/issues/new?assignees=&labels=Type%3A+Bug&template=01_bug_report.yml&title=bug%3A+">Report a Bug</a>
   &bullet;
-  <a href="https://github.com/premail/mjml-bullet-list/issues/new?assignees=&labels=Type%3A+Feature&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+  <a href="https://github.com/premail/mjml-bullet-list/issues/new?assignees=&labels=Type%3A+Feature&template=02_feature_request.yml&title=feat%3A+">Request a Feature</a>
   &bullet;
-  <a href="https://github.com/premail/mjml-bullet-list/issues/new?assignees=&labels=Type%3A+Question&template=03_SUPPORT_QUESTION.md&title=support%3A+">Ask a Question</a>
+  <a href="https://github.com/premail/mjml-bullet-list/issues/new?assignees=&labels=Type%3A+Question&template=03_support_question.yml&title=support%3A+">Ask a Question</a>
 </div>
 
 <div align="center">
@@ -26,7 +26,7 @@
 
 [![NPM](https://img.shields.io/npm/v/mjml-bullet-list?style=flat-square)](https://www.npmjs.com/package/mjml-bullet-list)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/premail/mjml-bullet-list?sort=semver&style=flat-square)](https://github.com/premail/mjml-bullet-list/releases)
-![Checks](https://img.shields.io/github/checks-status/premail/mjml-bullet-list/main.svg?style=flat-square)
+[![Release Date](https://img.shields.io/github/release-date/premail/mjml-bullet-list?style=flat-square)](https://github.com/premail/premail/releases/latest)
 [![MJML 4.0+ valid](https://img.shields.io/badge/mjml-4%2B-brightgreen.svg?style=flat-square)](https://github.com/mjmlio/mjml/releases)
 [![License: AGPL-3.0+](https://img.shields.io/badge/license-%20AGPL-blue?style=flat-square&logo=gnu)](https://github.com/premail/mjml-bullet-list/blob/main/LICENSE)
 [![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/premail/mjml-bullet-list/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22%2C%22Status%3A+Available%22+sort%3Aupdated-desc+)
