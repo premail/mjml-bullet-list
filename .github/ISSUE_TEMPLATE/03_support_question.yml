@@ -1,0 +1,63 @@
+name: Support question
+description: Ask a question about how to use MJML Bullet List
+title: 'support: '
+labels: 'Type: Question'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before asking a question, please search the existing issues to see if it's already been answered, and read the [MJML Bullet List documentation page](https://premail.dev/docs/components/mjml-bullet-list).
+
+        ---
+
+        Thank you for taking the time to ask a question! To respond as fast as possible, we need some information.
+  - type: input
+    id: v_mjml_bullet_list
+    attributes:
+      label: MJML Bullet List version
+      description:
+        'Run `npm list mjml-bullet-list` or `yarn list mjml-bullet-list` and
+        paste the first line of the output with `mjml-bullet-list` here.'
+    validations:
+      required: true
+  - type: input
+    id: v_mjml
+    attributes:
+      label: MJML version
+      description:
+        'Run `npm list mjml` or `yarn list mjml` and paste the first line of the
+        output with `mjml` here.'
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: What operating system are you using?
+      options:
+        - Linux
+        - Mac
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: v_node
+    attributes:
+      label: Node version
+      description: 'Run `node --version` and paste the output here.'
+    validations:
+      required: true
+  - type: input
+    id: v_package_manager
+    attributes:
+      label: NPM or Yarn version
+      description:
+        "Run `npm --version` or `yarn --version` (depending on which you're
+        using) and paste the output here."
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true

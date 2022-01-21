@@ -1,2 +1,15 @@
----
 blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://premail.dev/docs/components/mjml-bullet-list
+    about:
+      Our documentation site has all the details about MJML Bullet List. If
+      you're new to it, check here first!
+  - name: Premail
+    url: https://github.com/premail/premail
+    about:
+      MJML Bullet List is developed as a part of Premail (though it can also be
+      used on its own). Learn more about Premail here!
+  - name: '@premaildev on Twitter'
+    url: https://twitter.com/premaildev
+    about: Send a message to Premail on Twitter
