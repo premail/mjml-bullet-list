@@ -222,7 +222,19 @@ In your MJML project directory, install this package via npm:
 npm install mjml-bullet-list
 ```
 
-Add the package to your `.mjmlconfig`:
+In your build process script (such as gulp), require the package:
+
+```js
+const mjmlBulletList = require('mjml-bullet-list')
+```
+
+or
+
+```js
+import mjmlBulletList from mjml-bullet-list
+```
+
+Finally, add the package to your `.mjmlconfig`:
 
 ```json
 {
