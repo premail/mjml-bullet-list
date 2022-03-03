@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "files": [
     "/components",
+    "/components/index.js",
     "/docs",
     "/lib",
     "/test"
