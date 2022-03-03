@@ -14,12 +14,12 @@ const compile = () => {
     .pipe(gulp.dest('lib'))
     .on('end', () => {
       fs.readFile(
-        path.normalize('./examples/index.mjml'),
+        path.normalize('./docs/example.mjml'),
         'utf8',
         (err, data) => {
           if (err) throw err
           const result = mjml2html(data)
-          fs.writeFileSync(path.normalize('./examples/index.html'), result.html)
+          fs.writeFileSync(path.normalize('./docs/example.html'), result.html)
         }
       )
     })
