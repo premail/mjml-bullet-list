@@ -4,10 +4,7 @@
   "description": " Easily use bulleted lists in your MJML emails.",
   "main": "lib/index.js",
   "files": [
-    "/components",
-    "/docs",
-    "/lib",
-    "/test"
+    "lib"
   ],
   "sideEffects": false,
   "scripts": {
