@@ -4,7 +4,7 @@ export default class MjList extends BodyComponent {
   static componentName = 'mj-list'
 
   static dependencies = {
-    'mj-list': ['mj-li'],
+    'mj-list': ['mj-li', 'mj-raw'],
     'mj-column': ['mj-list'],
   }
 

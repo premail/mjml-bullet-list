@@ -6,7 +6,7 @@ export default class MjLi extends BodyComponent {
 
   static dependencies = {
     'mj-li': [],
-    'mj-list': ['mj-li'],
+    'mj-list': ['mj-li', 'mj-raw'],
   }
 
   static allowedAttributes = {
